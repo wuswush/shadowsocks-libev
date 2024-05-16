@@ -84,7 +84,7 @@ get_latest_version(){
     [ -z "${ver}" ] && echo "Error: Get shadowsocks-libev latest version failed" && exit 1
     shadowsocks_libev_ver="shadowsocks-libev-$(echo "${ver}" | sed -e 's/^[a-zA-Z]//g')"
     download_link="https://github.com/shadowsocks/shadowsocks-libev/releases/download/${ver}/${shadowsocks_libev_ver}.tar.gz"
-    init_script_link="https://raw.githubusercontent.com/wuswush/shadowsocks-libev/master/shadowsocks-libev"
+    init_script_link="https://raw.githubusercontent.com/yagelseneburayaoc/shadowsocks-libev/master/shadowsocks-libev"
 }
 
 get_opsy(){
